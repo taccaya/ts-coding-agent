@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ES2020", // Node.jsのバージョンに合わせて調整 (比較的新しい機能を使うため)
+    "module": "CommonJS", // Node.jsで一般的なモジュールシステム
+    "outDir": "./dist", // コンパイル後のJavaScriptファイルの出力先
+    "rootDir": "./src", // TypeScriptソースファイルのルートディレクトリ
+    "strict": true, // 厳格な型チェックを有効化 (推奨)
+    "esModuleInterop": true, // import * as React from 'react' を可能にする
+    "skipLibCheck": true, // 依存ライブラリの型チェックをスキップ
+    "forceConsistentCasingInFileNames": true, // ファイル名の大文字小文字を区別
+    "resolveJsonModule": true // JSONファイルのインポートを許可
+  },
+  "include": ["src/**/*"], // コンパイル対象のファイル
+  "exclude": ["node_modules"] // コンパイル対象外のディレクトリ
+}
