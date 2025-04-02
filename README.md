@@ -59,8 +59,8 @@
 
 1.  **リポジトリのクローン (またはコードのダウンロード):**
     ```bash
-    git clone <リポジトリURL> # もしあれば
-    cd <プロジェクトディレクトリ>
+    git clone https://github.com/taccaya/ts-coding-agent # もしあれば
+    cd ts-coding-agent
     ```
     または、提供されたソースコード (`src` フォルダ、`package.json`, `tsconfig.json`) を適切なディレクトリ構造で配置します。
 
@@ -85,6 +85,7 @@
     node_modules
     dist
     .env
+    package-lock.json
     ```
 
 4.  **TypeScriptのコンパイル:** 以下のコマンドでTypeScriptコードをJavaScriptにコンパイルします。
