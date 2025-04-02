@@ -59,7 +59,7 @@
 
 1.  **リポジトリのクローン (またはコードのダウンロード):**
     ```bash
-    git clone https://github.com/taccaya/ts-coding-agent # もしあれば
+    git clone https://github.com/taccaya/ts-coding-agent
     cd ts-coding-agent
     ```
     または、提供されたソースコード (`src` フォルダ、`package.json`, `tsconfig.json`) を適切なディレクトリ構造で配置します。
